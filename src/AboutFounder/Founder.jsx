@@ -4,24 +4,40 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "./Founder.css";
 import { Helmet } from 'react-helmet-async';
+import usePageNewSEO from '../hooks/usePageNewSEO';
 
 function Founder() {
   useEffect(()=>{
     window.scroll(0,0);
   })
+
+  usePageNewSEO({
+    title: "Dr J Vijay Venkatraman | Founder & CEO of Oviya MedSafe | Global Pharmacovigilance Leader",
+    description:
+        "Dr J Vijay Venkatraman, Founder & CEO of Oviya MedSafe, is a Diabetologist, Drug Safety Physician, and Pharmacovigilance expert with 25 years of experience. A Fellow of PIPA, UK, he has been instrumental in helping global pharma and biotech companies meet compliance requirements. A sought-after speaker, author, and thought leader, Dr Vijay actively contributes to the advancement of drug safety worldwide.",
+    keywords: [
+        "Dr J Vijay Venkatraman",
+        "Oviya MedSafe Founder",
+        "pharmacovigilance expert",
+        "drug safety leader",
+        "global pharmacovigilance",
+        "PIPA Fellow",
+        "regulatory compliance",
+        "pharmaceutical consulting",
+        "pharmacovigilance thought leader",
+        "medical entrepreneur",
+        "keynote speaker in drug safety",
+    ],
+    ogTitle: "Founder of Oviya MedSafe | Visionary Leadership in Healthcare Safety",
+    ogDescription:
+        "Dr J Vijay Venkatraman, a globally recognized pharmacovigilance leader, is committed to advancing drug safety and regulatory compliance worldwide.",
+    ogImage: "https://www.oviyamedsafe.com/mainlogo.png",
+    ogUrl: "https://www.oviyamedsafe.com/our-founder",
+});
   return (
 
     <div className="container-fluid abtparts">
-      <Helmet>
-        <title>Dr J Vijay Venkatraman | Founder & CEO of Oviya MedSafe | Global Pharmacovigilance Leader</title>
-        <meta name="description" content="Dr J Vijay Venkatraman, Founder & CEO of Oviya MedSafe, is a Diabetologist, Drug Safety Physician, and Pharmacovigilance expert with 25 years of experience. A Fellow of PIPA, UK, he has been instrumental in helping global pharma and biotech companies meet compliance requirements. A sought-after speaker, author, and thought leader, Dr Vijay actively contributes to the advancement of drug safety worldwide." />
-        <meta name="keywords" content="Dr J Vijay Venkatraman, Oviya MedSafe Founder, pharmacovigilance expert, drug safety leader, global pharmacovigilance, PIPA Fellow, regulatory compliance, pharmaceutical consulting, pharmacovigilance thought leader, medical entrepreneur, keynote speaker in drug safety." />
-        <link rel="canonical" href="https://oviyamedsafe.com/our-founder" />
-        <meta property="og:title" content="Founder of Oviya Medsafe | Visionary Leadership in Healthcare Safety" />
-        <meta property="og:image" content="https://www.oviyamedsafe.com/mainlogo.png" />
-        <meta property="og:url" content="https://www.oviyamedsafe.com/" />
-        <meta property="og:type" content="website" />
-      </Helmet>
+    
       
       <h1 className='py-2 subhead2'>Our Founder</h1>
       <div className="row align-items-center mx-1 mx-lg-5">

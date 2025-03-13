@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 // const { default: context } = require("react-bootstrap/esm/AccordionContext")
 
-const usePageSEO =({
+const usePageNewSEO =({
     title,
     description,
     keywords=[],
@@ -45,4 +45,4 @@ const usePageSEO =({
         }
     }
 }
-export default usePageSEO
+export default usePageNewSEO
