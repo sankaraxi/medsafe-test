@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import "./Careers.css"
 import { Helmet } from 'react-helmet-async';
 import { use } from 'react';
+
+
+
 function Careers() {
   useEffect(() => {
     window.scrollTo(0, 0);

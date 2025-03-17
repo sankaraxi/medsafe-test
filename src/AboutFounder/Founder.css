@@ -1,4 +1,8 @@
-
+.abtparts{
+  background-image: url("./hexbanner.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
 
 .founderimg{
   height: 400px;

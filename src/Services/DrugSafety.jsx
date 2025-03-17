@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async';
 
 const DrugSafety = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); 
+    window.scrollTo(0, 0);  
   }, []);
   return (
     <div >
