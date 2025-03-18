@@ -39,16 +39,7 @@ const BlogsUserView = () => {
 
   return (
     <div className="container-fluid" id="blogs">
-      {/* <Helmet>
-        <title>Latest News & Events | Oviya MedSafe’s Insights on Drug Safety & Compliance</title>
-        <meta name="description" content="Stay informed with Oviya MedSafe’s latest updates, industry events, and regulatory advancements in pharmacovigilance, drug safety, and global healthcare compliance." />
-        <meta name="keywords" content="pharmacovigilance news, drug safety events, regulatory advancements, Oviya MedSafe updates, pharma industry insights, global compliance trends, drug safety case studies, healthcare innovations" />
-        <link rel="canonical" href="https://oviyamedsafe.com/news" />
-        <meta property="og:title" content="Latest News & Events | Oviya MedSafe’s Updates on Drug Safety & Compliance" />
-        <meta property="og:image" content="https://www.oviyamedsafe.com/mainlogo.png" />
-        <meta property="og:url" content="https://www.oviyamedsafe.com/" />
-        <meta property="og:type" content="website" />
-      </Helmet> */}
+      
       <div className="row my-5 pb-5 insightspart">
         <h1 className="text-center subhead2 mb-5">News</h1>
 
@@ -97,7 +88,7 @@ const BlogsUserView = () => {
                     </h5>
                     <Link
                       className="px-2 readbtn my-2"
-                      to={`/news/${blog.id}`}
+                      href={`/news/${blog.id}`}
                     >
                       Read More
                     </Link>

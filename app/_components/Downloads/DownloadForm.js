@@ -249,7 +249,8 @@ const DownloadForm = ({fileId}) => {
           <button type="submit" className="custom-btn btn btn-primary btn-width" disabled={isVerified !== true}>
           Download PDF
           </button>
-        </div> 
+        </div>
+        <ToastContainer /> 
     </form>
   );
 };
