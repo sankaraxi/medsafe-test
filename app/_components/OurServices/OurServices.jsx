@@ -29,7 +29,7 @@ function OurServices() {
     },
     {
       id: 2,
-      link: "/Pharmacovigilance-consulting",
+      link: "/pharmacovigilance-consulting",
       image: '/serv2.png',
       title: `Pharmacovigilance <br/> Consulting`,
       alt:"Drug Safety Solutions - Oviya MedSafe",
