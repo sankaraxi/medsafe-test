@@ -1,20 +1,19 @@
 'use client';
 import { useState } from 'react';
-import { usePathname } from 'next/navigation'
 import Link from 'next/link';
+import { usePathname } from "next/navigation";
 import { IoMdArrowDropdown } from "react-icons/io";
 import './Menubar.css';
 
 const Navbar = () => {
     const [activeDropdown, setActiveDropdown] = useState(null);
-    const pathname = usePathname();
-    
+    const pathname = usePathname(); // ✅ Alternative to useLocation()
 
     const toggleDropdown = (dropdown) => {
         setActiveDropdown((prevDropdown) => (prevDropdown === dropdown ? null : dropdown));
     };
 
-    const isActive = (path) => pathname === path;
+    const isActive = (path) => pathname === path; // ✅ Checking the active path
 
     return (
         <div className='d-flex align-items-center gap-4'>

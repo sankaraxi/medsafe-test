@@ -1,9 +1,11 @@
 'use client';
+
 import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import MobileNav from './MobileNav';
 import './Menubar.css';
-import Link from 'next/link'
+import { FaBars } from "react-icons/fa";
+import Link from 'next/link';
 
 const Menubar = () => {
   const [hamToggle, setHamToggle] = React.useState(false);
@@ -41,7 +43,7 @@ const Menubar = () => {
         }}
       >
         <Link href="/">
-          <img src='./LOGO.png' title='Oviya MedSafe company logo.' className='p-0 m-0 me-5' alt="Oviya MedSafe - Global Pharmacovigilance Consulting & Drug Safety Services" style={{height: "65px"}} />
+          <img src='/LOGO.png' title='Oviya MedSafe company logo.' className='p-0 m-0 me-5' alt="Oviya MedSafe - Global Pharmacovigilance Consulting & Drug Safety Services" style={{height: "65px"}} />
         </Link>
         
         <Navbar />
@@ -61,23 +63,16 @@ const Menubar = () => {
           height: '60px',
         }}
       >
-        <Link href="/">
+        <Link href={"/"}>
           <img src='./LOGO.png' alt="Logo" className='p-0 m-0' style={{ height: '60px'}}  />
         </Link>
 
         <div
-          className="d-flex align-items-center"
-          onClick={() => setHamToggle(!hamToggle)}
-        >
-          <i
-            className="bi bi-list"
-            style={{
-              fontSize: '45px',
-              color: 'white',
-              paddingRight: '1rem',
-            }}
-          ></i>
-        </div>
+        className="d-flex align-items-center"
+        onClick={() => setHamToggle(!hamToggle)}
+      >
+        <FaBars style={{ fontSize: "45px", color: "white", paddingRight: "1rem" }} />
+      </div>
       </div>
 
       <div
