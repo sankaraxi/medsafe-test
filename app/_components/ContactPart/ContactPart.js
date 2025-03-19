@@ -12,25 +12,25 @@ function Contactpart() {
           <div className='d-flex gap-4'>
             <div>
               <Link href='https://x.com/OviyaMedSafe' target='_blank'>
-                <Image src="/TWT.png" alt='Twitter Logo' className='me-1' width={16} height={16} />
+                <img src="/TWT.png" alt='Twitter Logo' className='me-1' style={{width: '16px', height: '16px'}}/>
               </Link>
             </div>
 
             <div>
               <Link href='https://www.facebook.com/OviyaMedSafe' target='_blank'>
-                <Image src="/FB.png" alt='Facebook Logo' className='mx-1' width={20} height={20} />
+                <img src="/FB.png" alt='Facebook Logo' className='mx-1' style={{width: '20px', height:'20px'}} />
               </Link>
             </div>
 
             <div>
               <Link href='https://www.youtube.com/channel/UCJMIsvtEWEP0NwUalnRgODQ/videos' target='_blank'>
-                <Image src="/YT.png" alt='YouTube Logo' className='mx-1' width={22} height={22} />
+                <img src="/YT.png" alt='YouTube Logo' className='mx-1' style={{width: '22px', height:'22px'}} />
               </Link>
             </div>
 
             <div>
               <Link href='https://www.linkedin.com/company/oviya-medsafe/' target='_blank'>
-                <Image src="/LNKDIN.png" alt='LinkedIn Logo' className='mx-1' width={20} height={20} />
+                <img src="/LNKDIN.png" alt='LinkedIn Logo' className='mx-1' style={{width: '20px', height:'20px'}} />
               </Link>
             </div>
           </div>

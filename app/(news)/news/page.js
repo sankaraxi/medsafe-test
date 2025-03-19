@@ -17,9 +17,8 @@ export const metadata = {
       canonical: "https://oviyamedsafe.com/news",
     },
     openGraph: {
-      title: "Latest News & Events | Oviya MedSafe’s Updates on Drug Safety & Compliance",
-      description:
-        "Stay updated with Oviya MedSafe’s latest industry news, events, and insights on pharmacovigilance and global drug safety compliance.",
+      title: "Latest News & Events | Oviya MedSafe’s Insights on Drug Safety & Compliance",
+      description: "Stay informed with Oviya MedSafe’s latest updates, industry events, and regulatory advancements in pharmacovigilance, drug safety, and global healthcare compliance.",
       url: "https://www.oviyamedsafe.com/news",
       type: "website",
       images: [

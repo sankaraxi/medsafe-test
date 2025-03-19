@@ -20,7 +20,8 @@ export const metadata = {
       canonical: "https://www.oviyamedsafe.com/disclaimer-and-privacy-policy",
     },
     openGraph: {
-      title: "Disclaimer & Privacy Policy | Oviya MedSafe",
+      title: "Disclaimer & Privacy Policy | Oviya MedSafe’s Data Protection Commitment",
+      description: "Learn how Oviya MedSafe protects your privacy, handles data securely, and ensures compliance with regulatory standards. Read our Disclaimer and Privacy Policy for transparency on terms of use, online security, and data protection.",
       url: "https://www.oviyamedsafe.com/",
       type: "website",
       images: [

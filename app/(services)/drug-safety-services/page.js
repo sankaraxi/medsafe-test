@@ -20,9 +20,8 @@ export const metadata = {
     canonical: "https://oviyamedsafe.com/drug-safety-services",
   },
   openGraph: {
-    title: "Drug Safety Services | Comprehensive Solutions for Regulatory Compliance",
-    description:
-      "Oviya MedSafe offers expert drug safety solutions, including case processing, risk management, and regulatory compliance.",
+    title: "Drug Safety Services | End-to-End Pharmacovigilance & Regulatory Compliance",
+    description: "Oviya MedSafe provides comprehensive drug safety services, including case processing, risk management, aggregate reporting, and post-marketing surveillance, ensuring regulatory compliance and patient safety.",
     url: "https://www.oviyamedsafe.com/drug-safety-services",
     type: "website",
     images: [

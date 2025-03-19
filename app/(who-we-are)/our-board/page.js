@@ -23,9 +23,8 @@ export const metadata = {
     canonical: "https://www.oviyamedsafe.com/our-board",
   },
   openGraph: {
-    title: "Oviya MedSafe Board of Directors | Experts in Healthcare and Data Security",
-    description:
-      "Meet the leaders of Oviya MedSafe’s Board of Directors, specialists in pharmacovigilance, regulatory compliance, and global healthcare innovation.",
+    title: "Oviya MedSafe Board of Directors | Leaders in Drug Safety & Healthcare Innovation",
+    description: "Get to know the Board of Directors at Oviya MedSafe, a team of seasoned experts in pharmacovigilance, healthcare, and technology. With decades of experience in drug safety, data security, and regulatory compliance, they provide strategic direction to advance global healthcare innovation.",
     url: "https://www.oviyamedsafe.com/our-board",
     type: "website",
     images: [

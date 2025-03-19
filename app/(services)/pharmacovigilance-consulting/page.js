@@ -20,9 +20,8 @@ export const metadata = {
     canonical: "https://oviyamedsafe.com/pharmacovigilance-consulting",
   },
   openGraph: {
-    title: "Pharmacovigilance Consulting | Proactive Drug Safety & Compliance Strategies",
-    description:
-      "Expert pharmacovigilance consulting services from Oviya MedSafe help pharmaceutical companies ensure global drug safety compliance.",
+    title: "Pharmacovigilance Consulting | Expert Drug Safety & Regulatory Solutions",
+    description: "Oviya MedSafe’s pharmacovigilance consulting services support pharmaceutical companies in achieving global regulatory compliance, optimizing drug safety processes, and mitigating risks to ensure patient safety.",
     url: "https://www.oviyamedsafe.com/pharmacovigilance-consulting",
     type: "website",
     images: [

@@ -16,9 +16,8 @@ export const metadata = {
     canonical: "https://www.oviyamedsafe.com/contact",
   },
   openGraph: {
-    title: "Contact Oviya MedSafe | Get in Touch for Pharmacovigilance Services",
-    description:
-      "Reach out to Oviya MedSafe for expert drug safety consulting, regulatory compliance, and risk management solutions.",
+    title: "Contact Oviya MedSafe | Partner with Experts in Drug Safety",
+    description: "Get in touch with Oviya MedSafe for expert pharmacovigilance consulting and drug safety solutions. Our team is ready to assist with regulatory compliance, risk management, and more.",
     url: "https://www.oviyamedsafe.com/contact",
     type: "website",
     images: [

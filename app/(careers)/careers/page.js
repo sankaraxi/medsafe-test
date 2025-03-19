@@ -17,9 +17,8 @@ export const metadata = {
     canonical: "https://www.oviyamedsafe.com/careers",
   },
   openGraph: {
-    title: "Careers at Oviya MedSafe | Join Our Pharmacovigilance Team",
-    description:
-      "Join Oviya MedSafe’s expert team in pharmacovigilance and drug safety. Make a global impact in healthcare.",
+    title: "Careers at Oviya MedSafe | Build Your Future in Pharmacovigilance",
+    description: "Discover rewarding career opportunities at Oviya MedSafe. Join our expert team in pharmacovigilance and drug safety to make a meaningful impact in global healthcare.",
     url: "https://www.oviyamedsafe.com/careers",
     type: "website",
     images: [

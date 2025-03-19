@@ -17,9 +17,9 @@ export const metadata = {
     canonical: "https://www.oviyamedsafe.com/downloads",
   },
   openGraph: {
-    title: "Pharmacovigilance Resources | Download Oviya MedSafe’s Expert Insights",
-    description:
-      "Access expert insights from Oviya MedSafe through our collection of pharmacovigilance whitepapers, publications, and regulatory guides.",
+    title: "Pharmacovigilance Resources | Expert Drug Safety Insights from Oviya MedSafe",
+  description:
+    "Explore Oviya MedSafe’s exclusive pharmacovigilance resources, including whitepapers, publications, and compliance guides, designed to support global drug safety and regulatory excellence.",
     url: "https://www.oviyamedsafe.com/downloads",
     type: "website",
     images: [

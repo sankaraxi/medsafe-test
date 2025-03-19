@@ -18,9 +18,8 @@ export const metadata = {
     canonical: "https://oviyamedsafe.com/strategic-partnerships",
   },
   openGraph: {
-    title: "Strategic Partnerships | Oviya MedSafe's Collaborative Approach",
-    description:
-      "Discover how Oviya MedSafe forms strategic partnerships to enhance regulatory solutions and healthcare innovation.",
+    title: "Strategic Partnerships | Oviya MedSafe’s Industry Collaborations for Innovation",
+    description: "Oviya MedSafe leverages strategic partnerships to deliver complementary healthcare and regulatory solutions, integrating technologies across industries to meet evolving client needs and drive innovation.",
     url: "https://www.oviyamedsafe.com/strategic-partnerships",
     type: "website",
     images: [

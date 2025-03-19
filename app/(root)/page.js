@@ -31,13 +31,13 @@ export const metadata = {
     "pharmacovigilance services in India",
     "pharmacovigilance company in Coimbatore",
   ],
+  author: "Oviya MedSafe",
   alternates: {
     canonical: "https://www.oviyamedsafe.com/",
   },
   openGraph: {
-    title: "Global Pharmacovigilance Consulting & Drug Safety Services | Oviya MedSafe",
-    description:
-      "Oviya MedSafe offers expert pharmacovigilance and drug safety services to ensure regulatory compliance and patient safety worldwide.",
+    title: "Oviya MedSafe | Global Pharmacovigilance Services & Expert Drug Safety Consulting",
+    description: "Oviya MedSafe is a trusted provider of end-to-end pharmacovigilance solutions, ensuring regulatory compliance and patient safety. We specialize in ICSR processing, aggregate report preparation, QPPV services, risk management, signal detection, and clinical trial safety. Additionally, through our strategic industry alliances, we offer complementary services such as PV database provision, medical writing, and regulatory affairs support. Trust our expert team for reliable, high-quality pharmacovigilance solutions tailored to your needs.",
     url: "https://www.oviyamedsafe.com/",
     type: "website",
     images: [

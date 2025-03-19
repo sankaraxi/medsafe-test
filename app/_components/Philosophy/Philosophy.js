@@ -10,7 +10,6 @@ const Philosophy = () => {
     
       <div className='d-flex flex-column flex-lg-row gap-4 gap-lg-10 justify-content-center card-container-pad align-items-center'>
         {/* Card 1 */}
-        
         <div className="card-container">
             {/* Circle Animation */}
             <span className="circle-animation"></span>

@@ -23,8 +23,9 @@ export const metadata = {
     canonical: "https://oviyamedsafe.com/about-us",
   },
   openGraph: {
-    title: "About Oviya MedSafe | Leaders in Pharmacovigilance Consulting",
-    url: "https://www.oviyamedsafe.com/",
+    title: "About Oviya MedSafe | Pioneers in Global Pharmacovigilance Consulting",
+    description: "Discover Oviya MedSafe’s mission to lead global pharmacovigilance consulting. With expertise in drug safety, regulatory compliance, and strategic client partnerships, we are committed to ensuring high-quality safety solutions.",
+    url: "https://www.oviyamedsafe.com/about-us",
     type: "website",
     images: [
       {

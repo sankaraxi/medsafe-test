@@ -30,17 +30,6 @@ function Banner() {
 
   return (
     <div className='container-fluid bnpart p-0 m-0'>
-      {/* <Helmet>
-        <title>Oviya MedSafe | Global Pharmacovigilance Services & Expert Drug Safety Consulting</title>
-        <meta name="description" content="Oviya MedSafe is a trusted provider of end-to-end pharmacovigilance solutions, ensuring regulatory compliance and patient safety. We specialize in ICSR processing, aggregate report preparation, QPPV services, risk management, signal detection, and clinical trial safety. Additionally, through our strategic industry alliances, we offer complementary services such as PV database provision, medical writing, and regulatory affairs support. Trust our expert team for reliable, high-quality pharmacovigilance solutions tailored to your needs." />
-        <meta name="keywords" content="pharmacovigilance consulting, drug safety services, regulatory compliance, aggregate reporting, signal detection, clinical trial safety, QPPV services, risk management, strategic partnerships, PV database provision, medical writing, pharmaceutical consulting, global pharmacovigilance, drug safety physician, pharmacovigilance scientist, pharmacovigilance services in India, pharmacovigilance company in Coimbatore." />
-        <meta name='author' author="Oviya MedSafe"/>
-        <link rel="canonical" href="https://oviyamedsafe.com/"/>
-        <meta property="og:title" content="Global Pharmacovigilance Consulting & Drug Safety Services | Oviya MedSafe" />
-        <meta property="og:image" content="https://www.oviyamedsafe.com/mainlogo.png" />
-        <meta property="og:url" content="https://www.oviyamedsafe.com/" />
-        <meta property="og:type" content="website" />
-      </Helmet> */}
       {/* Common Layout for All Devices */}
       <div className="servicesbg pt-0 pt-md-5" id="ourservices">
         <div className="row w-100">
