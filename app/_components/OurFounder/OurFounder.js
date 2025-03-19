@@ -37,7 +37,7 @@ const OurFounder = () => {
                Oviya MedSafe<br />
                <Link 
                  href="https://www.linkedin.com/in/drjvvr/" 
-                 className="text-start text-decoration-none text-dark d-flex align-items-center" 
+                 className="text-start text-decoration-none text-dark d-flex justify-content-center justify-content-lg-start align-items-center" 
                  style={{ fontSize: "18px" }}
                  
                >

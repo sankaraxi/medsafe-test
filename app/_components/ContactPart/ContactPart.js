@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons'; // Import necessary icons
 import styles from './ContactPart.module.css'; // Import CSS file
-import Image from 'next/image';
 import Link from 'next/link';
 
 function Contactpart() {
@@ -38,7 +37,7 @@ function Contactpart() {
 
         <div className='col-md-8 d-flex align-items-center justify-content-end'>
           <Link href="mailto:info@oviyamedsafe.com" className={`text-decoration-none ${styles['text-size']} d-block d-lg-inline mx-0 mx-md-1 mx-lg-3 ${styles.paracontact}`}>
-            <Image src="/ML.png" alt='Mail Logo' className='mx-1' width={20} height={20} />
+            <img src="/ML.png" alt='Mail Logo' className='mx-1' style={{width: '20px', height:'20px'}} />
             info@oviyamedsafe.com
           </Link>
           <a href="tel:+442033936037" className={`text-decoration-none d-block ${styles['text-size']} d-lg-inline mx-0 mx-md-2 mx-lg-3 ${styles.paracontact}`}>
