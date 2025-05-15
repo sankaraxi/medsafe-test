@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Contactpart from "./_components/ContactPart/ContactPart";
 import Menubar from "./_components/Menubar/Menubar";
 import Footer from "./_components/Footer/Footer";
+import Whatsapp from "./_components/Whatsapp/Whatsapp";
 // import Menubar from "./_components/Menubar/Menubar";
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Contactpart />
         <Menubar />
         {children}
+        <Whatsapp/>
         <Footer />
       </body>
     </html>
